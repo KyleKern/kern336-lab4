@@ -15,7 +15,7 @@
         // make request to pixabay
         include "./api/pixabayAPI.php"; 
         if($_GET['keyword']==null&& $_GET['catagory']==null){
-            
+            echo "select a keyword by typing or by using the drop down menu";
         } else if($_GET['keyword']==null){
              $imgURLs = getImageURLs($_GET['catagory'],$_GET['layout']);
              $imgsToDisplay = getTenRandomImages($imgURLs); 
