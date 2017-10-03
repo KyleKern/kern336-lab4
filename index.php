@@ -4,7 +4,7 @@
     
     function getTenRandomImages($imgURLs) {
         // for now, return the first 10 images 
-        $imagesToDisplay = array_slice($imgURLs, 0, 10); 
+        $imagesToDisplay = array_slice($imgURLs, 0, 7); 
         return $imagesToDisplay; 
     }
     
